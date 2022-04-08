@@ -1,0 +1,49 @@
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: none;
+  gap: 5px;
+  background: transparent;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin: 0 20px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background: #f1f2f5;
+  border: 1px solid #cdced9;
+}
+
+.popover-filter {
+  width: 160px;
+
+  span {
+    font-weight: bold;
+  }
+
+  li {
+    padding: 10px 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+  }
+
+  button:not(:first-child):hover {
+    background: #f0f5ff;
+    cursor: pointer;
+  }
+}
+
+.popover-filter-paper {
+  margin-left: 35px;
+}

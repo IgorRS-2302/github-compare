@@ -1,0 +1,72 @@
+.deleteRepo {
+  width: 350px;
+  height: 210px;
+  background: #fff;
+  color: #333333;
+  border-radius: 4px;
+
+  .deleteHeader {
+    display: flex;
+    justify-content: space-between;
+    background: #fff4ec;
+    color: #b95000;
+    border-bottom: 1px solid #ff8f39;
+    padding: 17px 20px;
+    border-radius: 4px 4px 0 0;
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .closeButton {
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border: 1px solid transparent;
+      color: inherit;
+      cursor: pointer;
+    }
+  }
+
+  .deleteConfirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e7e7ed;
+    line-height: 1.5em;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .deleteButtons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 26px;
+    gap: 16px;
+
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    #deleteCancelButton {
+      background: transparent;
+      border: 1px solid #cdced9;
+      border-radius: 4px;
+      color: #6b6c7e;
+    }
+
+    #deleteButton {
+      background: #b95000;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      color: #ffffff;
+    }
+  }
+}

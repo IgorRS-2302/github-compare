@@ -1,0 +1,76 @@
+.addRepo {
+  display: flex;
+  align-items: center;
+  background: #0b5fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.popover-paper {
+  margin-left: 75px;
+}
+
+.popover-container {
+  width: 410px;
+  height: fit-content;
+
+  h3 {
+    padding-bottom: 16px;
+  }
+
+  p {
+    padding-bottom: 10px;
+  }
+
+  p > span {
+    color: #b95000;
+  }
+
+  input[type="text"] {
+    width: 95%;
+    height: 10px;
+    padding: 10px;
+  }
+}
+
+.popover-content {
+  padding: 9px 24px;
+}
+
+.popover-error {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  gap: 5px;
+  padding: 4px 24px;
+  color: #da1414;
+}
+
+.popover-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 9px 20px;
+  border-top: 1px solid #e7e7ed;
+}
+
+.popover-cancel {
+  background: transparent;
+  border: 1px solid #e7e7ed;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.popover-add {
+  background: #0b5fff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
