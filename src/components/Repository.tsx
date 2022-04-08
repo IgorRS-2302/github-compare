@@ -56,7 +56,7 @@ export function Repository({ repository, deleteRepo, favoriteRepo }: RepositoryP
         <li><span>Open Issues</span> {repository.open_issues_count}</li>
         <li><span>Age</span> {age} ago</li>
         <li><span>Last commit</span> {lastCommit} ago</li>
-        <li><span>License</span>{repository?.license === null ? "N/A" : repository.license.name}</li>
+        <li><span>License </span>{repository?.license === null ? "N/A" : repository.license.name}</li>
         <li id="repoLanguage">{repository.language}</li>
       </div>
     </div>
