@@ -1,0 +1,51 @@
+.listContainer {
+  display: flex;
+  padding-top: 5vh;
+  padding-left: 10vw;
+  // padding-right: 10vw;
+  height: 80vh;
+}
+
+@media screen and (min-width: 1400px) {
+  .repositoryList {
+    grid-template-columns: repeat(4, fit-content(325px));
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .repositoryList {
+    grid-template-columns: repeat(3, fit-content(325px));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .repositoryList {
+    grid-template-columns: repeat(2, fit-content(325px));
+  }
+}
+
+.repositoryList {
+  display: grid;
+  align-items: flex-start;
+  gap: 30px;
+  height: fit-content;
+}
+
+.emptyList {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .emptyListPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 340px;
+    text-align: center;
+
+    img {
+      margin-bottom: 40px;
+    }
+  }
+}
