@@ -19,7 +19,7 @@ export function AddRepository({ addRepo }: AddRepoProps) {
   function AddRepo() {
     axios({
       method: "GET",
-      url: `https:api.github.com/repos/${searchRepository}`,
+      url: `https://api.github.com/repos/${searchRepository}`,
     })
       .then((res) => {
         addRepo(res.data);
